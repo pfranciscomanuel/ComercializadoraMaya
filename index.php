@@ -7,8 +7,6 @@
         exit;
     }
 
-    require_once "conexion.php";
-    require_once "message.php";
 ?>
 
 <!DOCTYPE html>
@@ -88,38 +86,7 @@
                     producto de calidad y un excelente servicio de distribución, acorde a su demanda y expectativa.</p>
             </div>
             <br>
-            <br>
-            <br>
-            <h1 id="ofertas">Ofertas del BlackFriday</h1>
-            <div class="container__article">
-                <div class="box__article">
-                    <img class="imagen1" src="images/sony_cd.png" alt="">
-                    <h3>CD - Sony</h3>
-                    <h4 id="Precio">Precio: $3.00</h4>
-                    <h5>Descuento: 15%</h5>
-
-                </div>
-                <div class="box__article">
-                    <img class="imagen2" src="" alt="">
-                    <h3>CD - Acer</h3>
-                    <h4 id="Precio">Precio: $15</h4>
-                    <h5>Descuento: 12%</h5>
-                </div>
-                <div class="box__article">
-                    <img class="imagen3" src="" alt="">
-                    <h3>CD - Princo</h3>
-                    <h4 id="Precio">Precio: $15</h4>
-                    <h5>Descuento: 10%</h5>
-
-                </div>
-                <div class="box__article">
-                    <img class="imagen4" src="" alt="">
-                    <h3>CD - IBM</h3>
-                    <h4 id="Precio">Precio: $15</h4>
-                    <h5>Descuento: 20%</h5>
-
-                </div>
-            </div>
+            
             <div class="body_map">
                 <div class="container_map" id="ContainerMap">
                     <div class="map">
