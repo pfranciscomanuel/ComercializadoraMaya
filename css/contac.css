@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&display=swap');
+
+
+.body_map {
+    font-family: 'Alegreya', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+
+}
+
+.container_map {
+    background-color: #2830a1c0;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.644) 0px 12px 32px;
+}
+
+.map {
+    width: 100%;
+    height: auto;
+    flex: 50%;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+}
+
+.form {
+    width: 100%;
+    height: auto;
+    flex: 50%;
+    text-align: center;
+}
+
+.form h1 {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.form-in {
+    margin-bottom: 0.5rem;
+    border: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.form-in:focus {
+    outline: none;
+}
+
+.form-in::placeholder {
+    color: #aaa;
+}
+
+.form-in:hover {
+    color: #dd9b0b;
+}
+
+form textarea {
+    height: 10rem;
+}
+
+form button {
+    font-weight: bold;
+    cursor: pointer;
+    color: #2499c7;
+    font-size: 1.1rem !important;
+}
+
+form button:active {
+    transform: scale(0.98);
+}
+
+.form small {
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #aaa;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    width: .5rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+    border-radius: 5rem;
+}
